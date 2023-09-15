@@ -1,0 +1,17 @@
+{
+    "name": "volantis/cache",
+    "type": "package",
+    "description": "A library containing common classes used by higher-level libraries and applications.",
+    "website": "https://volantis.dev",
+    "authors": [{
+        "name": "Ben McClure",
+        "email": "ben@volantisdev.com"
+    }],
+    "require": {
+        "volantis/file":"^1.0 || dev-main",
+        "volantis/config": "^1.0 || dev-main"
+    },
+    "libraries": {
+        "Cache": "lib"
+    }
+}
